@@ -1,8 +1,8 @@
 function WelcomeMessage() {
-  return <h1>Welcome to Next js</h1>;
+  return <h1 className="text-3xl text-white font-black">Welcome to the world of Next js</h1>;
 }
 
-const page = () => {
+const Home = () => {
   return (
     <div>
       <WelcomeMessage />
@@ -10,5 +10,5 @@ const page = () => {
   )
 }
 
-export default page;
+export default Home;
 
