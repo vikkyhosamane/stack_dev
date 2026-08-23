@@ -6,10 +6,7 @@ import { Button } from "@base-ui/react";
 
 const LogoutButton = () => {
   return (
-    <Button
-      type="button"
-      onClick={() => signOut({ redirectTo: ROUTES.HOME })}
-    >
+    <Button type="button" onClick={() => signOut({ redirectTo: ROUTES.SIGN_IN })}>
       LogOut
     </Button>
   );
