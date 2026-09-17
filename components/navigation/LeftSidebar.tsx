@@ -23,7 +23,7 @@ const LeftSidebar = () => {
           href={ROUTES.SIGN_UP}
           className="small-medium light-border-2 btn-tertiary text-dark-400_light900 block min-h-10.25 w-full rounded-lg px-4 py-3 text-center shadow-none"
         >
-          <Image src="/icons/account.svg" alt="Account" width={20} height={20} className="inverted-colors lg:hidden" />
+          <Image src="/icons/sign-up.svg" alt="Account" width={20} height={20} className="inverted-colors lg:hidden" />
           <span className="primary-text-gradient hidden lg:inline">Sign Up</span>
         </Link>
       </div>
