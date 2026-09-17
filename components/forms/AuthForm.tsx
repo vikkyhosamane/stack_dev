@@ -65,19 +65,19 @@ const AuthForm = <T extends FieldValues>({ schema, defaultValues, formType, onSu
         </Button>
 
         {formType === "SIGN_IN" ? (
-          <p>
+          <div>
             Don't have an account?{" "}
             <Link href={ROUTES.SIGN_UP} className="paragraph-semibold primary-text-gradient">
               Sign up
             </Link>
-          </p>
+          </div>
         ) : (
-          <p>
+          <div>
             Already have an account?{" "}
             <Link href={ROUTES.SIGN_IN} className="paragraph-semibold primary-text-gradient">
               Sign in
             </Link>
-          </p>
+          </div>
         )}
       </form>
     </Form>
