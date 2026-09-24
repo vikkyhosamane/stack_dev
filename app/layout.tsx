@@ -27,6 +27,13 @@ const RootLayout = async ({ children }: { children: React.ReactNode }) => {
       suppressHydrationWarning
       className={`${inter.variable} ${spaceGrotesk.variable} h-full antialiased`}
     >
+      <head>
+        <link
+          rel="stylesheet"
+          type="text/css"
+          href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+        />
+      </head>
       <body suppressHydrationWarning className="font-inter flex min-h-full flex-col">
         <Providers>
           {children}

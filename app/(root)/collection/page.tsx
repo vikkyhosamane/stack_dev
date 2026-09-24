@@ -1,5 +1,5 @@
 const Collection = () => {
-  return <div></div>;
+  return <div>Collection page</div>;
 };
 
 export default Collection;
